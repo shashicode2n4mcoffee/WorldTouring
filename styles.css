@@ -39,6 +39,10 @@ h5 {
   font-size: 2.7rem;
 }
 
+body{
+  animation: entry 3s ease-in-out;
+}
+
 button {
   background-color: rgba(15, 149, 190, 0.795);
   padding: 1.5rem 4.5rem;
@@ -319,6 +323,16 @@ button:focus {
 }
 
 /* End of footer section  */
+
+
+@keyframes entry {
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
 
 /*  Media Query  */
 
