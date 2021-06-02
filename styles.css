@@ -40,7 +40,7 @@ h5 {
 }
 
 body{
-  animation: entry 3s ease-in-out;
+  animation: entry 3s ;
 }
 
 button {
